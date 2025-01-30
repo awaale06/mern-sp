@@ -6,16 +6,15 @@ import AddSong from './pages/AddSong';
 import AddAlbum from './pages/AddAlbum';
 import ListSong from './pages/ListSong';
 import ListAlbum from './pages/ListAlbum';
-import SideBar from './components/SideBar';
 import Navbar from './components/Navbar';
-
+import Sideb from './components/Sideb';
 
 export const url = "https://mern-sp-backend.onrender.com"
 const App = () => {
   return (
     <div className='flex items-start min-h-screen'>
       <ToastContainer/>
-      <SideBar/>
+      <Sideb/>
       <div className='flex-1 h-screen overflow-y-scroll bg-[#f3fff7]'>
         <Navbar/>
         <div className='pt-8 pl-5 sm:pt-12 sm:pl-12'>
