@@ -1,8 +1,8 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
-const Sidebar = () => {
+
+const SideBar = () => {
   const navigate =useNavigate();
   return (
     <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
@@ -42,4 +42,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default SideBar
